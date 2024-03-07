@@ -8,9 +8,11 @@ from fabric.api import *
 from datetime import datetime
 from os.path import exists
 
+
 env.hosts = ['54.152.60.211', '34.229.71.198'] # <IP web-01>, <IP web-02>
 env.user = "ubuntu"
 env.key_filename = "~/.ssh/school"
+
 
 def do_deploy(archive_path):
     """ distributes the archive to
