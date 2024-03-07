@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Adding a web static file to the server"
+git commit -m "0x03. AirBnB clone - Deploy static"
 git push

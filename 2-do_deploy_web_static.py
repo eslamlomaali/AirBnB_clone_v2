@@ -10,7 +10,8 @@ from datetime import datetime
 from os.path import exists
 
 
-env.hosts = ['35.237.166.125', '54.167.61.201']  # <IP web-01>, <IP web-02>
+#env.hosts = ['35.237.166.125', '54.167.61.201']  # <IP web-01>, <IP web-02>
+env.hosts = ['54.152.60.211', '34.229.71.198']  # <IP web-01>, <IP web-02>
 # ^ all commands must be executed
 # (using env.hosts = ['<IP web-01>', 'IP web-02'] variable in your script)
 
