@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "AirBnB clone - MySQL"
+git commit -m "Adding a web static file to the server"
 git push

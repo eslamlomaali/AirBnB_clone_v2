@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# script that remove nginx server
+sudo systemctl stop nginx
+sudo apt -y purge  nginx nginx-common
+sudo apt -y autoremove
+sudo rm -rf /etc/nginx/
+sudo rm -rf /var/www/
+nginx -v
+./1-install_nginx_web_server
+./3-redirection
+./4-not_found_page_404
+./0-custom_http_response_header
+./0-setup_web_static.sh
