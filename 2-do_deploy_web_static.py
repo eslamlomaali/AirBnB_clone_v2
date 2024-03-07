@@ -5,10 +5,9 @@ distributes an archive to your web servers, using the function do_deploy:
 """
 
 
-from fabric.api import put
+from fabric.api import *
 from datetime import datetime
 from os.path import exists
-from fabric.api import run
 
 
 #env.hosts = ['35.237.166.125', '54.167.61.201']  # <IP web-01>, <IP web-02>
